@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(233, 155, 210);
+}
+.center {
+text-align: center;
+}
+.left {
+display: inline-block;
+text-align: left;
+}
+.normaltext{
+color: white;
+font-size : 25px;
+line-height : 0;
+font-family : Arial;
+}
+.h1{
+color: white;
+font-size: 40px;
+font-family: Arial;
+}
+img{
+    margin: 5px ;
+    cursor: pointer;
+    }
+.finish{
+    
+    text-align: right;
+    
+}
+
+.radioformat{
+    display: none;
+    
+}
+.radioformat:checked+label{
+transform: scale(0.95);
+border: 5px solid;
+border-color: rgb(196, 28, 28);
+}
+.selected{
+    transform: scale(0.95);
+    border: 5px solid;
+    border-color: rgb(196, 28, 28);
+}

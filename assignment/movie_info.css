@@ -1,0 +1,157 @@
+/* movie info and background */
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #0d0c1d;
+}
+
+.fullscreen{
+    /* background: url(flipped.jpg); */
+    background-repeat: no-repeat;
+    height: 600px;
+    box-sizing: border-box;
+    box-shadow: inset 500px 0 100px 0 rgba(30, 29, 29, 0.85);
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    height: 600px;
+    position: relative;
+}
+
+.textbox{
+    padding: 30px;
+}
+.fullscreen h1{
+    color: white;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fullscreen p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+    text-align: justify;
+}
+button{
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 120px;
+    color: white;
+    height: 30px;
+}
+
+.button_container{
+    padding-top: 15px;
+    display: flex;
+    gap: 20px;
+}
+
+/* Rating */
+.section1{
+    width: 1000px;
+    display: flex;
+    margin: 100px auto;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.section1 h1, h2{
+    color: white;
+}
+
+
+.rating {
+    background-color: #161b33;
+    width: 250px;
+}
+
+.rating_count{
+    background-color: #161b33;
+    width: 250px;
+}
+
+.user_rating{
+    box-sizing: border-box;
+    background-color: #161b33;
+    position: relative;
+    width: 500px;
+    padding: 0px 20px 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user_rating p{
+    color: white;
+}
+
+.star label{
+    font-size: 40px;
+    color: slategrey;
+    float: right;
+    margin: 0px 5px;
+}
+
+.star input:checked ~ label{
+    color: yellow;
+}
+
+.star input{
+    display: none;
+}
+
+
+
+/* Post Review */
+.review_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.review_bar{
+    width: 930px;
+    height: 35px;
+    margin: auto;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.post_button{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+
+/* Comment */
+
+.review{
+    margin: 20px 100px 100px 100px;
+    border: 1px grey solid;
+    padding: 30px;
+    text-align: justify;
+    background-color: azure;
+    border-radius: 20px;
+}
+.comment_box{
+    margin: 0px;
+    border-bottom: 0.1px grey dashed;
+}
+.review_count h1{
+    margin: 0px;
+}
+
+.review h2{
+    color: black;
+}

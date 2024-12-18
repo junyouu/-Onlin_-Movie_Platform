@@ -1,0 +1,67 @@
+.center {
+    width: 400px;
+    border: 100px;
+    padding: 40px;
+    background: #fcb9e0;
+    border-radius: 15px;
+    box-shadow:-4px 3px 3px 3px #dcb7d8;
+    height: 400px;
+}
+
+body{
+    background-image: url(barbie.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.container {
+    background-color: #f7ddf2;
+    box-shadow: -2px 2px 2px #dda7c6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    text-shadow: -2px 2px 2px #dda7c6;
+    color: #ed52b4;
+}
+
+h2{
+    color: rgb(180, 24, 24);
+    text-shadow:-1px 1px 1px black ;
+    font-size: 20px;
+    position: fixed;
+    top: 0%;
+    left: 20px;
+    margin-top: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #f87cdd;
+}
+
+input[type="text"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #f08ddb;
+    box-shadow: -1px 1px 1px#ed52b4;
+}
+
+#s {
+    
+    padding: 8px;
+    border-radius: 50px;
+    border: 1px solid #e38fd9;
+    color: #f08ddb;
+}

@@ -1,0 +1,60 @@
+.sidebar{
+    position: fixed;
+    right: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: rgb(9, 9, 40);
+}
+
+.sidebar ul{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.sidebar a{
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 20px 15px;
+    font-size: 18px;
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+
+.sidebar a:hover{
+    background-color: rgb(23, 23, 71);
+}
+
+.check{
+    display: none;
+}
+
+.bar{
+    position: absolute;
+    cursor: pointer;
+}
+
+.close{
+    position: absolute;
+    right: 200px;
+    cursor: pointer;
+    color: aqua;
+    z-index: 10;
+}
+
+.check:checked ~ .sidebar{
+    right: 0px;
+} 
+
+.check:checked ~ #close{
+    right: 200px;
+}
+
+
+

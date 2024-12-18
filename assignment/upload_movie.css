@@ -1,0 +1,97 @@
+body{
+    margin: 0px;
+    padding: 40px;
+    background-color: black;
+}
+.container1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: black;
+    color: rgb(189, 71, 71);
+    font-size: 22px;
+}
+
+.container1 img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 60px;
+    left: 60px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+input{
+    width: 300px;
+    height: 20px;
+    
+    border-color: white;
+    
+}
+
+select{
+    width: 300px;
+    height: 30px;
+    
+    border-color: white;
+}
+
+
+.poster{
+    text-align: center;
+    
+}
+    
+.image{
+    text-align: center;
+}
+
+.movie{
+    text-align: center;
+}
+
+span{
+    font-size: 15px;
+    border: 3px dashed red;
+    display: block;
+    margin: auto;
+    border-width: 2px;
+   
+}
+
+.uploadbutton{
+    border: 1px solid black;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: red;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 13px 23px;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    width: auto;
+    box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+    background-color: black;
+    border-color: red;
+    color: black;
+    opacity: 1;
+}
+
+.uploadbutton_container{
+    text-align: center;
+}
+
+form{
+    width: 50%;
+    height: 30%;
+}

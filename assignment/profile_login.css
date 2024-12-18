@@ -1,0 +1,57 @@
+.box input{
+    width: 150px;
+    font-size: 32px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 2px;
+    border: 2px solid white;
+    background: rgba(72, 71, 71, 0.787);
+    font-weight: bold;
+    color: white;
+    outline: none;
+    transition: all;
+}
+h1{
+    top: 200px;
+    display: flex;
+    color: white;
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.box{
+     /* width: 300px;
+    height: 500px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+    /* background: red; */
+}
+    
+
+
+
+.login{
+        position: relative;
+        display: flex;
+        align-items: center ;
+        justify-content: center;
+        width: 100px;
+        height: 35px;
+        background: red;
+        border: 1px solid black;
+        outline: none;
+        color: white;
+        border-radius: 10px;
+        top: 230px;
+        
+}
+body{
+    background: black;
+    font-family: "Poppins", sans-serif;
+}

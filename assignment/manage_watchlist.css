@@ -1,0 +1,56 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    height: 100%;
+    padding-top: 70px;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.content{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+th, td {
+    padding: 20px;
+    text-align: left;
+    border-bottom: 5px solid black;
+    min-width: 60px;
+    background-color: white;
+}
+
+th {
+    background-color: 	#B20710;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+button {
+    background-color: slategray;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+h1{
+    text-align: center;
+}
+
+img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 100px;
+    left: 60px;
+}

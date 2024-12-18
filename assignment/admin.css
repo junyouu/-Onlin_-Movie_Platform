@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+.header{
+    text-align: center;
+}
+
+.header h1{
+    color: red;
+    font-size: 50px;
+    line-height: 80px;
+    margin-bottom: 0px;
+}
+
+.container{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    background-color: aliceblue;
+    border-radius: 30px;
+
+}
+
+.button img{
+    width: 200px;
+    height: 200px;
+}
+
+.content{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.function h2{
+    color: white;
+    text-align: center;
+}

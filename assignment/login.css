@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-image: url(shrek\ eheh.jpg); */
+}
+
+*{
+    font-family: Verdana, Tahoma, sans-serif ;
+    box-sizing: border-box;
+}
+ .containner {
+    width: 500px;
+    border: 90px;
+    padding: 30px;
+    background:#8cb04e;
+    border-radius: 20px;
+    box-shadow:-5px 4px 4px 4px #5c452d;
+ }
+
+h1 {
+    text-align: center;
+    text-shadow: -2px 2px 2px#5c452d;
+    margin-bottom: 80px;
+    color: #7b5b3a;
+    
+}
+
+h5{
+    color: rgb(180, 24, 24);
+    text-shadow:-2px 2px 2px black ;
+    font-size: 20px;
+    position: fixed;
+    top: 0%;
+    left: 20px;
+    margin-top: 10px;
+}
+
+input {
+    display: block;
+    border: 3px #5c452d outset ;
+    border-radius: 25px;
+    width: 100%;
+    padding: 12px;
+    margin: 10px auto;
+}
+
+button {
+    font-family:'Segoe UI', Tahoma, sans-serif;
+    font-size: 12px;
+    float: right;
+    background: #555;
+    padding: 1px 15px ;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 15px;
+}

@@ -1,0 +1,27 @@
+body{
+    padding: 0px;
+    background-color: black; 
+    padding-top: 50px;
+}
+
+h1, h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.container img{
+    width: calc(25% - 10px);
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.content{
+    margin: 50px;
+}
